@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 String task = String.valueOf(taskEditText.getText());
-                                Log.d(TAG, "Task to be add: " + task);
+                                Log.d(TAG, "Task to be added: " + task);
                             }
                         })
                         .setNegativeButton("Cancel", null)
